@@ -1,0 +1,2077 @@
+
+
+/*VARIABLES*/
+$colorPrincipal: rgb(255, 252, 245);
+$colorSecundario: rgb(255, 235, 211);
+$colorTerciario: salmon;
+$colorCuaternario: black;
+$colorHover: rgb(255, 226, 190);
+$colorPlaceholder: gray;
+
+
+/*MEDIA QUERIES ESCRITORIO*/
+@media only screen and (min-width: 768px){
+
+
+    /*FONDO*/
+    body{
+        background-color: $colorPrincipal;
+    }
+
+
+    /*INFORMACIÓN*/
+
+
+        /*INFORMACIÓN VASOS*/
+        .infoVasosTexto{
+            margin-top: 5%;
+
+            .infoVasosTexto__contenedorInfoVasos__infoVasos__h2{
+                font-size: 6vh;
+                font-weight: bold;
+                background-color: $colorSecundario;
+                text-align: center;
+                color: $colorCuaternario; 
+                border-radius: 10px;
+            }
+
+            .infoVasosTexto__contenedorTexto{
+                margin-top: 5%;
+
+                .infoVasosTexto__contenedorTexto__texto{
+                    background-color: $colorSecundario;
+                    color: $colorTerciario;
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 3.5vh;
+                    margin-right: 2%;
+                    border-radius: 10px;
+                }
+
+                .infoVasosTexto__contenedorTexto__texto--2{
+                    background-color: $colorSecundario;
+                    color: $colorTerciario;
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 3.5vh;
+                    margin-left: 2%;
+                    border-radius: 10px;
+                }
+
+            }
+
+        }
+
+
+        /*PRECAUCIÓN*/
+        .precaucion{
+            margin-top: 3%;
+
+            .precaucion__contenedorPrecaucion__h2{
+                font-size: 3.5vh;
+                font-weight: bold;
+                background-color: $colorTerciario;
+                text-align: center;
+                color: $colorSecundario;
+                border-radius: 10px;
+            }
+
+        }
+
+
+        /*INFORMACIÓN STICKERS*/
+        .infoStickersTexto{
+            margin-top: 5%;
+
+            .infoStickersTexto__contenedorInfoStickers__infoStickers__h2{
+                font-size: 6vh;
+                font-weight: bold;
+                background-color: $colorSecundario;
+                text-align: center;
+                color: $colorCuaternario;
+                border-radius: 10px;
+            }
+
+            .infoStickersTexto__contenedorTexto{
+                margin-top: 5%;
+                
+                .infoStickersTexto__contenedorTexto__texto{
+                    background-color: $colorTerciario;
+                    color: $colorSecundario;
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 3.5vh;
+                    border-radius: 10px;
+                }
+
+            }
+            
+        }
+
+
+        /*INFORMACIÓN ENVÍOS*/
+        .enviosInformacion{
+            margin-top: 5%;
+
+            .enviosInformacion__contenedorInformacion__informacion__h2{
+                font-size: 6vh;
+                font-weight: bold;
+                background-color: $colorSecundario;
+                text-align: center;
+                color: $colorCuaternario;
+                border-radius: 10px;
+            }
+
+            .enviosInformacion__contenedorInformacion{
+                margin-top: 5%;
+
+                .enviosInformacion__contenedorInformacion__informacion{
+                    background-color: $colorSecundario;
+                    color: $colorTerciario;
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 3.5vh;
+                    margin-left: 2%;
+                    margin-right: 2%;
+                    border-radius: 10px;
+                }
+
+                .enviosInformacion__contenedorInformacion__informacion--dos{
+                    background-color: $colorTerciario;
+                    color: $colorSecundario;
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 3.5vh;
+                    margin-left: 2%;
+                    margin-right: 2%;
+                    border-radius: 10px;
+                }
+
+            }
+
+        }
+
+
+    /*CATÁLOGO DE STICKERS*/
+
+    
+        /*MAIN*/
+        main{
+            font-family: 'Raleway', sans-serif;
+        }
+
+
+            /*ARTISTA Y STICKER*/
+            .artistaSticker{
+                margin-top: 5%;
+
+                .artistaSticker__contenedorArtista__artista__h2{
+                    font-size: 6vh;
+                    font-weight: bold;
+                    background-color: $colorSecundario;
+                    text-align: center;
+                    color: $colorCuaternario; 
+                    border-radius: 10px;
+                }
+
+                .artistaSticker__contenedorStickers{
+                    margin-top: 5%;
+                }
+
+            }
+
+
+        /*PIE DE PÁGINA*/
+        .contenedorFooter2__footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            margin-top: 5%;
+        }
+        .contenedorRegresoIndex{
+            background-color: $colorSecundario;
+            border-radius: 10px;
+
+            .regresoIndex{
+                text-align: center;
+                text-decoration: none;
+                color: $colorCuaternario;
+                font-family: 'Raleway', sans-serif;
+                font-size: 3vh;
+                font-weight: bold;
+            }
+
+            .regresoIndex:hover{
+                background-color: $colorHover;
+                border-radius: 10px;
+            }
+
+        }
+
+
+    /*INDEX*/
+
+
+        /*HEADER*/
+        .contenedorNav{
+            background-color: $colorSecundario;
+
+            .contenedorNav__nav{
+                background-color: $colorSecundario;
+
+                .contenedorNav__nav__títuloItems{
+                    font-weight: bold;
+                    color: $colorCuaternario;
+                    font-family: 'Raleway', sans-serif;
+
+                    .contenedorNav__nav__títuloItems__título{
+                        font-weight: bold;
+                        margin-bottom: 0%;
+                        font-size: 3vh;
+                        color: $colorCuaternario;
+                        margin-right: 3%;
+                    }
+
+                }
+
+            }
+
+        }
+
+            
+        /*MAIN*/
+        main{
+            font-family: 'Raleway', sans-serif;
+        }
+
+
+            /*SOBRE NOSOTROS*/
+            .sobreNosotrosTexto{
+                margin-top: 5%;
+
+                .sobreNosotrosTexto__contenedorSobreNosotros__sobreNosotros__h2{
+                    font-size: 6vh;
+                    font-weight: bold;
+                    background-color: $colorSecundario;
+                    text-align: center;
+                    color: $colorCuaternario; 
+                    border-radius: 10px;
+                }
+
+                .sobreNosotrosTexto__contenedorTexto{
+                    margin-top: 5%;
+                    
+                    .sobreNosotrosTexto__contenedorTexto__texto{
+                        background-color: $colorTerciario;
+                        color: $colorSecundario;
+                        text-align: center;
+                        font-weight: bold;
+                        font-size: 3.5vh;
+                        border-radius: 10px;
+                    }
+
+                }
+                
+            }
+
+
+            /*INSTRUCCIONES*/
+            .preguntaInstrucciones{
+                margin-top: 5%;
+
+                .preguntaInstrucciones__contenedorPregunta__pregunta__h2{
+                    font-size: 6vh;
+                    font-weight: bold;
+                    background-color: $colorSecundario;
+                    text-align: center;
+                    color: $colorCuaternario;
+                    border-radius: 10px;
+                }
+
+                .preguntaInstrucciones__contenedorInstrucciones{
+                    margin-top: 5%;
+
+                    .preguntaInstrucciones__contenedorInstrucciones__instrucciones{
+                        background-color: $colorSecundario;
+                        color: $colorTerciario;
+                        text-align: center;
+                        font-weight: bold;
+                        font-size: 3.5vh;
+                        margin-left: 2%;
+                        margin-right: 2%;
+                        border-radius: 10px;
+                    }
+
+                    .preguntaInstrucciones__contenedorInstrucciones__instrucciones:hover{
+                        transform: scale(1.1, 1.1);
+                        transition-duration: 1s;
+                    }
+
+                    .preguntaInstrucciones__contenedorInstrucciones__instrucción--dos{
+                        background-color: $colorTerciario;
+                        color: $colorSecundario;
+                        text-align: center;
+                        font-weight: bold;
+                        font-size: 3.5vh;
+                        margin-left: 2%;
+                        margin-right: 2%;
+                        border-radius: 10px;
+                    }
+
+                    .preguntaInstrucciones__contenedorInstrucciones__instrucción--dos:hover{
+                        transform: scale(1.1, 1.1);
+                        transition-duration: 1s;
+                    }
+
+                }
+
+            }
+
+
+            /*MODAL*/
+            .contenedorModalBotón{
+                margin-left: 0%;
+                margin-right: 0%;
+                padding-left: 0%;
+                padding-right: 0%;
+                margin-top: 2%;
+
+                .contenedorModalBotón__contenedorBotónRecordá__botónRecordá{
+                    background-color: $colorSecundario;
+                    font-weight: bold;
+                    width: 20vh;
+                    height: 7vh;
+                    color: $colorCuaternario;
+                    font-size: 3vh;
+                    justify-self: center;
+                    font-family: 'Raleway', sans-serif;
+                }
+
+                .contenedorModalBotón__contenedorBotónRecordá__botónRecordá:hover{
+                    background-color: $colorHover;
+                    font-weight: bold;
+                    color: $colorCuaternario;
+                }
+
+                .contenedorModalBotón__contenedorModal__dialog__contenido{
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: bold;
+                    color: $colorCuaternario;
+
+                    .contenedorModalBotón__contenedorModal__dialog__contenido__footer__botónModalAceptar{
+                        background-color: $colorSecundario;
+                        font-weight: bold;
+                        font-family: 'Raleway', sans-serif;
+                        color: $colorCuaternario;
+                    }
+
+                    .contenedorModalBotón__contenedorModal__dialog__contenido__footer__botónModalAceptar:hover{
+                        background-color: $colorHover;
+                        font-weight: bold;
+                        color: $colorCuaternario;
+                    }
+
+                    .contenedorModalBotón__contenedorModal__dialog__contenido__header__título{
+                        font-family: 'Raleway', sans-serif;
+                        font-weight: bold;
+                        color: $colorCuaternario;
+                    }
+
+                }
+
+            }
+
+
+            /*FOTOS*/
+            .fotos{
+                margin-top: 5%;
+            }
+
+
+            /*FORMULARIO*/
+            .preguntaFormulario{
+                margin-top: 5%;
+
+                .preguntaFormulario__contenedorPregunta{
+                    margin-left: 0%;
+
+                    .preguntaFormulario__contenedorPregunta__pregunta__h2{
+                        font-size: 6vh;
+                        font-weight: bold;
+                        background-color: $colorSecundario;
+                        text-align: center;
+                        color: $colorCuaternario;
+                        border-radius: 10px;
+                    }
+
+                }
+
+                .preguntaFormulario__contenedorFormulario{
+                    margin-top: 5%;
+
+                    ::placeholder{
+                        color: $colorPlaceholder;
+                        font-weight: bold;
+                        font-family: 'Raleway', sans-serif;
+                    }
+
+                    .preguntaFormulario__contenedorFormulario__formulario__label{
+                        font-weight: bold;
+                        font-family: 'Raleway', sans-serif;
+                        color: $colorCuaternario;
+                    }
+
+                    .preguntaFormulario__contenedorFormulario__formulario__select{
+                        color: $colorPlaceholder;
+                        font-weight: bold;
+                        font-family: 'Raleway', sans-serif;
+                        border: 3px solid $colorTerciario;
+                    }
+
+                    .preguntaFormulario__contenedorFormulario__formulario__control{
+                        border: 3px solid $colorTerciario;
+                    }
+
+                    .preguntaFormulario__contenedorFormulario__formulario__enviar{
+                        background-color: $colorSecundario;
+                        font-weight: bold;
+                        color: $colorCuaternario;
+                    }
+
+                    .preguntaFormulario__contenedorFormulario__formulario__enviar:hover{
+                        background-color: $colorHover;
+                        font-weight: bold;
+                        color: $colorCuaternario;
+                    }
+
+                }
+
+            }
+
+
+            /*PRECIOS*/
+            .preciosTabla{
+                margin-top: 5%;
+
+                .preciosTabla__contenedorPrecios{
+                    margin-left: 0%;
+
+                    .preciosTabla__contenedorPrecios__precios__h2{
+                        font-size: 6vh;
+                        font-weight: bold;
+                        background-color: $colorSecundario;
+                        text-align: center;
+                        color: $colorCuaternario;
+                        border-radius: 10px;
+                    }
+
+                }
+
+                .preciosTabla__contenedorTabla{
+                    margin-top: 5%;
+                
+                    thead{
+                        border: 3px solid $colorTerciario;
+                        border-radius: 10px;
+                    }
+
+                    tbody{
+                        border: 3px solid $colorTerciario;
+                    }
+
+                    tr{
+                        border: 3px solid $colorTerciario;
+
+                        th{
+                            text-align: center;
+                            font-weight: bold;
+                            font-family: 'Raleway', sans-serif;
+                            font-size: 3.5vh;
+                            color: $colorCuaternario;
+                            border: 3px solid $colorTerciario;
+                        }
+
+                        td{
+                            border: 3px solid $colorTerciario;
+                            text-align: center;
+                            font-weight: bold;
+                            font-family: 'Raleway', sans-serif;
+                            font-size: 3.5vh;
+                            color: $colorCuaternario;
+                        }
+
+                    }
+                
+                }   
+
+            }
+
+
+        /*PIE DE PÁGINA*/
+        .contenedorFooter{
+            margin-top: 5%;
+
+            .contenedorFooter__footer{
+                background-color: $colorSecundario;
+                border-radius: 10px;
+
+                .contenedorFooter__footer__texto{
+                    font-weight: bold;
+                    text-align: center;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 3vh;
+                    color: $colorCuaternario;
+                }
+
+            }
+
+        }
+
+
+}
+
+
+/*MEDIA QUERIES TABLET*/
+@media only screen and (max-width: 991px) and (min-width: 768px){
+
+
+    /*FONDO*/
+    body{
+        background-color: $colorPrincipal;
+    }
+
+
+    /*INFORMACIÓN VASOS*/
+    .infoVasosTexto{
+        margin-top: 5%;
+
+        .infoVasosTexto__contenedorInfoVasos__infoVasos__h2{
+            font-size: 6vh;
+            font-weight: bold;
+            background-color: $colorSecundario;
+            text-align: center;
+            color: $colorCuaternario; 
+            border-radius: 10px;
+        }
+
+        .infoVasosTexto__contenedorTexto{
+            margin-top: 5%;
+
+            .infoVasosTexto__contenedorTexto__texto{
+                background-color: $colorSecundario;
+                color: $colorTerciario;
+                text-align: center;
+                font-weight: bold;
+                font-size: 3.5vh;
+                margin-right: 2%;
+                border-radius: 10px;
+            }
+
+            .infoVasosTexto__contenedorTexto__texto--2{
+                background-color: $colorSecundario;
+                color: $colorTerciario;
+                text-align: center;
+                font-weight: bold;
+                font-size: 3.5vh;
+                margin-right: 2%;
+                border-radius: 10px;
+            }
+
+        }
+
+    }
+
+
+    /*PRECAUCIÓN*/
+    .precaucion{
+        margin-top: 3%;
+
+        .precaucion__contenedorPrecaucion__h2{
+            font-size: 3.5vh;
+            font-weight: bold;
+            background-color: $colorTerciario;
+            text-align: center;
+            color: $colorSecundario;
+            border-radius: 10px;
+        }
+
+    }
+
+
+    /*INFORMACIÓN STICKERS*/
+    .infoStickersTexto{
+        margin-top: 5%;
+
+        .infoStickersTexto__contenedorInfoStickers__infoStickers__h2{
+            font-size: 6vh;
+            font-weight: bold;
+            background-color: $colorSecundario;
+            text-align: center;
+            color: $colorCuaternario;
+            border-radius: 10px;
+        }
+
+        .infoStickersTexto__contenedorTexto{
+            margin-top: 5%;
+            
+            .infoStickersTexto__contenedorTexto__texto{
+                background-color: $colorTerciario;
+                color: $colorSecundario;
+                text-align: center;
+                font-weight: bold;
+                font-size: 3.5vh;
+                border-radius: 10px;
+            }
+
+        }
+        
+    }
+
+
+    /*INFORMACIÓN ENVÍOS*/
+    .enviosInformacion{
+        margin-top: 5%;
+
+        .enviosInformacion__contenedorInformacion__informacion__h2{
+            font-size: 6vh;
+            font-weight: bold;
+            background-color: $colorSecundario;
+            text-align: center;
+            color: $colorCuaternario;
+            border-radius: 10px;
+        }
+
+        .enviosInformacion__contenedorInformacion{
+            margin-top: 0%;
+
+            .enviosInformacion__contenedorInformacion__informacion{
+                background-color: $colorSecundario;
+                color: $colorTerciario;
+                text-align: center;
+                font-weight: bold;
+                font-size: 4vh;
+                margin-top: 5%;
+                border-radius: 10px;
+            }
+
+            .enviosInformacion__contenedorInformacion__informacion--dos{
+                background-color: $colorTerciario;
+                color: $colorSecundario;
+                text-align: center;
+                font-weight: bold;
+                font-size: 4vh;
+                margin-top: 5%;
+                border-radius: 10px;
+            }
+
+        }
+
+    }
+
+
+    /*CATÁLOGO DE STICKERS*/
+
+    
+        /*MAIN*/
+        main{
+            font-family: 'Raleway', sans-serif;
+        }
+
+
+            /*ARTISTA Y STICKER*/
+            .artistaSticker{
+                margin-top: 5%;
+
+                .artistaSticker__contenedorArtista__artista__h2{
+                    font-size: 6vh;
+                    font-weight: bold;
+                    background-color: $colorSecundario;
+                    text-align: center;
+                    color: $colorCuaternario; 
+                    border-radius: 10px;
+                }
+
+                .artistaSticker__contenedorStickers{
+                    margin-top: 5%;
+                }
+
+            }
+
+
+        /*PIE DE PÁGINA*/
+        .contenedorFooter2__footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            margin-top: 5%;
+        }
+        .contenedorRegresoIndex{
+            background-color: $colorSecundario;
+            border-radius: 10px;
+
+            .regresoIndex{
+                text-align: center;
+                text-decoration: none;
+                color: $colorCuaternario;
+                font-family: 'Raleway', sans-serif;
+                font-size: 3vh;
+                font-weight: bold;
+            }
+
+            .regresoIndex:hover{
+                background-color: $colorHover;
+                border-radius: 10px;
+            }
+
+        }
+
+
+    /*INDEX*/
+
+
+        /*HEADER*/
+        .contenedorNav{
+            background-color: $colorSecundario;
+
+            .contenedorNav__nav{
+                background-color: $colorSecundario;
+
+                .contenedorNav__nav__títuloItems{
+                    font-weight: bold;
+                    color: $colorCuaternario;
+                    font-family: 'Raleway', sans-serif;
+
+                    .contenedorNav__nav__títuloItems__título{
+                        font-weight: bold;
+                        margin-bottom: 0%;
+                        font-size: 4vh;
+                        margin-right: 3%;
+                        color: $colorCuaternario;
+                    }
+                    
+                }
+
+            }
+
+        }
+
+            
+        /*MAIN*/
+        main{
+            font-family: 'Raleway', sans-serif;
+        }
+
+
+            /*SOBRE NOSOTROS*/
+            .sobreNosotrosTexto{
+                margin-top: 5%;
+
+                .sobreNosotrosTexto__contenedorSobreNosotros__sobreNosotros__h2{
+                    font-size: 6vh;
+                    font-weight: bold;
+                    background-color: $colorSecundario;
+                    text-align: center;
+                    color: $colorCuaternario; 
+                    border-radius: 10px;
+                }
+
+                .sobreNosotrosTexto__contenedorTexto{
+                    margin-top: 5%;
+                    
+                    .sobreNosotrosTexto__contenedorTexto__texto{
+                        background-color: $colorTerciario;
+                        color: $colorSecundario;
+                        text-align: center;
+                        font-weight: bold;
+                        font-size: 3.5vh;
+                        border-radius: 10px;
+                    }
+
+                }
+                
+            }
+
+
+            /*INSTRUCCIONES*/
+            .preguntaInstrucciones{
+                margin-top: 5%;
+
+                .preguntaInstrucciones__contenedorPregunta__pregunta__h2{
+                    font-size: 6vh;
+                    font-weight: bold;
+                    background-color: $colorSecundario;
+                    text-align: center;
+                    border-radius: 10px;
+                }
+
+                .preguntaInstrucciones__contenedorInstrucciones{
+                    margin-top: 0%;
+
+                    .preguntaInstrucciones__contenedorInstrucciones__instrucciones{
+                        background-color: $colorSecundario;
+                        color: $colorTerciario;
+                        text-align: center;
+                        font-weight: bold;
+                        font-size: 4vh;
+                        margin-top: 5%;
+                        border-radius: 10px;
+                    }
+
+                    .preguntaInstrucciones__contenedorInstrucciones__instrucción--dos{
+                        background-color: $colorTerciario;
+                        color: $colorSecundario;
+                        text-align: center;
+                        font-weight: bold;
+                        font-size: 4vh;
+                        margin-top: 5%;
+                        border-radius: 10px;
+                    }
+
+                    .preguntaInstrucciones__contenedorInstrucciones__instrucciones:hover{
+                        transform: scale(1.1, 1.1);
+                        transition-duration: 1s;
+                    }
+
+                    .preguntaInstrucciones__contenedorInstrucciones__instrucción--dos:hover{
+                        transform: scale(1.1, 1.1);
+                        transition-duration: 1s;
+                    }
+
+                }
+
+            }
+
+
+            /*MODAL*/
+            .contenedorModalBotón{
+                margin-left: 0%;
+                margin-right: 0%;
+                padding-left: 0%;
+                padding-right: 0%;
+                margin-top: 2%;
+
+                .contenedorModalBotón__contenedorBotónRecordá__botónRecordá{
+                    background-color: $colorSecundario;
+                    font-weight: bold;
+                    width: 20vh;
+                    height: 7vh;
+                    font-size: 3vh;
+                    color: $colorCuaternario;
+                    justify-self: center;
+                    font-family: 'Raleway', sans-serif;
+                }
+
+                .contenedorModalBotón__contenedorBotónRecordá__botónRecordá:hover{
+                    background-color: $colorHover;
+                    font-weight: bold;
+                    color: $colorCuaternario;
+                }
+
+                .contenedorModalBotón__contenedorModal__dialog__contenido{
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: bold;
+                    color: $colorCuaternario;
+
+                    .contenedorModalBotón__contenedorModal__dialog__contenido__footer__botónModalAceptar{
+                        background-color: $colorSecundario;
+                        font-weight: bold;
+                        font-family: 'Raleway', sans-serif;
+                        color: $colorCuaternario;
+                    }
+
+                    .contenedorModalBotón__contenedorModal__dialog__contenido__footer__botónModalAceptar:hover{
+                        background-color: $colorHover;
+                        font-weight: bold;
+                        color: $colorCuaternario;
+                    }
+
+                    .contenedorModalBotón__contenedorModal__dialog__contenido__header__título{
+                        font-family: 'Raleway', sans-serif;
+                        font-weight: bold;
+                        color: $colorCuaternario;
+                    }
+
+                }
+
+            }
+
+
+            /*FOTOS*/
+            .fotos{
+                margin-top: 5%;
+            }
+
+
+            /*FORMULARIO*/
+            .preguntaFormulario{
+                margin-top: 5%;
+
+                .preguntaFormulario__contenedorPregunta{
+                    margin-left: 0%;
+
+                    .preguntaFormulario__contenedorPregunta__pregunta__h2{
+                        font-size: 6vh;
+                        font-weight: bold;
+                        background-color: $colorSecundario;
+                        text-align: center;
+                        color: $colorCuaternario;
+                        border-radius: 10px;
+                    }
+
+                }
+
+                .preguntaFormulario__contenedorFormulario{
+                    margin-top: 5%;
+
+                    ::placeholder{
+                        color: $colorPlaceholder;
+                        font-weight: bold;
+                        font-family: 'Raleway', sans-serif;
+                    }
+
+                    .preguntaFormulario__contenedorFormulario__formulario__label{
+                        font-weight: bold;
+                        font-family: 'Raleway', sans-serif;
+                        color: $colorCuaternario;
+                    }
+
+                    .preguntaFormulario__contenedorFormulario__formulario__select{
+                        color: gray;
+                        font-weight: bold;
+                        font-family: 'Raleway', sans-serif;
+                        border: 3px solid $colorTerciario;
+                    }
+
+                    .preguntaFormulario__contenedorFormulario__formulario__control{
+                        border: 3px solid $colorTerciario;
+                    }
+
+                    .preguntaFormulario__contenedorFormulario__formulario__enviar{
+                        background-color: $colorSecundario;
+                        font-weight: bold;
+                        color: $colorCuaternario;
+                    }
+
+                    .preguntaFormulario__contenedorFormulario__formulario__enviar:hover{
+                        background-color: $colorHover;
+                        font-weight: bold;
+                        color: $colorCuaternario;
+                    }
+
+                }
+
+            }
+
+            
+            /*PRECIOS*/
+            .preciosTabla{
+                margin-top: 5%;
+
+                .preciosTabla__contenedorPrecios{
+
+                    margin-left: 0%;
+
+                    .preciosTabla__contenedorPrecios__precios__h2{
+                        font-size: 6vh;
+                        font-weight: bold;
+                        background-color: $colorSecundario;
+                        text-align: center;
+                        color: $colorCuaternario;
+                        border-radius: 10px;
+                    }
+
+                }
+
+                .preciosTabla__contenedorTabla{
+                    margin-top: 5%;
+
+                    thead{
+                        border: 3px solid $colorTerciario;
+                    }
+
+                    tbody{
+                        border: 3px solid $colorTerciario;
+                    }
+
+                    tr{
+                        border: 3px solid $colorTerciario;
+
+                        th{
+                            text-align: center;
+                            font-weight: bold;
+                            font-family: 'Raleway', sans-serif;
+                            font-size: 3.5vh;
+                            color: $colorCuaternario;
+                            border: 3px solid $colorTerciario;
+                        }
+
+                        td{
+                            border: 3px solid $colorTerciario;
+                            text-align: center;
+                            font-weight: bold;
+                            font-family: 'Raleway', sans-serif;
+                            font-size: 3.5vh;
+                            color: $colorCuaternario;
+                        }
+
+                    }
+
+                }
+
+            }
+
+
+        /*PIE DE PÁGINA*/
+        .contenedorFooter{
+            margin-top: 5%;
+
+            .contenedorFooter__footer{
+                background-color: $colorSecundario;
+                border-radius: 10px;
+
+                .contenedorFooter__footer__texto{
+                    font-weight: bold;
+                    text-align: center;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 3vh;
+                    color: $colorCuaternario;
+                    border-radius: 10px;
+                }
+
+            }
+
+        }
+
+    
+}
+
+
+/*MEDIA QUERIES MOBILE*/
+@media only screen and (max-width: 767px){
+
+
+    /*FONDO*/
+    body{
+        background-color: $colorPrincipal;
+    }
+
+
+    /*INFORMACIÓN VASOS*/
+    .infoVasosTexto{
+        margin-top: 5%;
+
+        .infoVasosTexto__contenedorInfoVasos__infoVasos__h2{
+            font-size: 6vh;
+            font-weight: bold;
+            background-color: $colorSecundario;
+            text-align: center;
+            color: $colorCuaternario; 
+            border-radius: 10px;
+        }
+
+        .infoVasosTexto__contenedorTexto{
+            margin-top: 0%;
+
+            .infoVasosTexto__contenedorTexto__texto{
+                background-color: $colorSecundario;
+                color: $colorTerciario;
+                text-align: center;
+                font-weight: bold;
+                font-size: 3.5vh;
+                margin-top: 5%;
+                border-radius: 10px;
+            }
+
+            .infoVasosTexto__contenedorTexto__texto--2{
+                background-color: $colorSecundario;
+                color: $colorTerciario;
+                text-align: center;
+                font-weight: bold;
+                font-size: 3.5vh;
+                margin-top: 5%;
+                border-radius: 10px;
+            }
+
+        }
+
+    }
+
+
+    /*PRECAUCIÓN*/
+    .precaucion{
+        margin-top: 3%;
+
+        .precaucion__contenedorPrecaucion__h2{
+            font-size: 3.5vh;
+            font-weight: bold;
+            background-color: $colorTerciario;
+            text-align: center;
+            color: $colorSecundario;
+            border-radius: 10px;
+        }
+
+    }
+
+
+    /*INFORMACIÓN STICKERS*/
+    .infoStickersTexto{
+        margin-top: 5%;
+
+        .infoStickersTexto__contenedorInfoStickers__infoStickers__h2{
+            font-size: 6vh;
+            font-weight: bold;
+            background-color: $colorSecundario;
+            text-align: center;
+            color: $colorCuaternario;
+            border-radius: 10px;
+        }
+
+        .infoStickersTexto__contenedorTexto{
+            margin-top: 5%;
+            
+            .infoStickersTexto__contenedorTexto__texto{
+                background-color: $colorTerciario;
+                color: $colorSecundario;
+                text-align: center;
+                font-weight: bold;
+                font-size: 3.5vh;
+                border-radius: 10px;
+            }
+
+        }
+        
+    }
+
+
+    /*INFORMACIÓN ENVÍOS*/
+    .enviosInformacion{
+        margin-top: 5%;
+
+        .enviosInformacion__contenedorInformacion__informacion__h2{
+            font-size: 6vh;
+            font-weight: bold;
+            background-color: $colorSecundario;
+            text-align: center;
+            color: $colorCuaternario;
+            border-radius: 10px;
+        }
+
+        .enviosInformacion__contenedorInformacion{
+            margin-top: 0%;
+
+            .enviosInformacion__contenedorInformacion__informacion{
+                background-color: $colorSecundario;
+                color: $colorTerciario;
+                text-align: center;
+                font-weight: bold;
+                font-size: 4vh;
+                margin-top: 5%;
+                border-radius: 10px;
+            }
+
+            .enviosInformacion__contenedorInformacion__informacion--dos{
+                background-color: $colorTerciario;
+                color: $colorSecundario;
+                text-align: center;
+                font-weight: bold;
+                font-size: 4vh;
+                margin-top: 5%;
+                border-radius: 10px;
+            }
+
+        }
+
+    }
+
+
+    /*CATÁLOGO DE STICKERS*/
+
+    
+        /*MAIN*/
+        main{
+            font-family: 'Raleway', sans-serif;
+        }
+
+
+            /*ARTISTA Y STICKER*/
+            .artistaSticker{
+                margin-top: 5%;
+
+                .artistaSticker__contenedorArtista__artista__h2{
+                    font-size: 6vh;
+                    font-weight: bold;
+                    background-color: $colorSecundario;
+                    text-align: center;
+                    color: $colorCuaternario; 
+                    border-radius: 10px;
+                }
+
+                .artistaSticker__contenedorStickers{
+                    margin-top: 5%;
+                }
+
+            }
+
+
+        /*PIE DE PÁGINA*/
+        .contenedorFooter2__footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            margin-top: 5%;
+        }
+        .contenedorRegresoIndex{
+            background-color: $colorSecundario;
+            border-radius: 10px;
+
+            .regresoIndex{
+                text-align: center;
+                text-decoration: none;
+                color: $colorCuaternario;
+                font-family: 'Raleway', sans-serif;
+                font-size: 3vh;
+                font-weight: bold;
+            }
+
+            .regresoIndex:hover{
+                background-color: $colorHover;
+                border-radius: 10px;
+            }
+
+        }
+
+
+    /*INDEX*/
+
+
+        /*HEADER*/
+        .contenedorNav{
+            background-color: $colorSecundario;
+
+            .contenedorNav__nav{
+                background-color: $colorSecundario;
+
+                .contenedorNav__nav__títuloItems{
+                    font-weight: bold;
+                    color: $colorCuaternario;
+                    font-family: 'Raleway', sans-serif;
+
+                    .contenedorNav__nav__títuloItems__título{
+                        font-weight: bold;
+                        margin-bottom: 0%;
+                        font-size: 4vh;
+                        margin-right: 3%;
+                        color: $colorCuaternario;
+                    }
+
+                }
+
+            }
+
+        }
+
+            
+        /*MAIN*/
+        main{
+            font-family: 'Raleway', sans-serif;
+        }
+
+
+            /*SOBRE NOSOTROS*/
+            .sobreNosotrosTexto{
+                margin-top: 5%;
+
+                .sobreNosotrosTexto__contenedorSobreNosotros__sobreNosotros__h2{
+                    font-size: 6vh;
+                    font-weight: bold;
+                    background-color: $colorSecundario;
+                    text-align: center;
+                    color: $colorCuaternario; 
+                    border-radius: 10px;
+                }
+
+                .sobreNosotrosTexto__contenedorTexto{
+                    margin-top: 5%;
+                    
+                    .sobreNosotrosTexto__contenedorTexto__texto{
+                        background-color: $colorTerciario;
+                        color: $colorSecundario;
+                        text-align: center;
+                        font-weight: bold;
+                        font-size: 3.5vh;
+                        border-radius: 10px;
+                    }
+
+                }
+                
+            }
+
+
+            /*INSTRUCCIONES*/
+            .preguntaInstrucciones{
+                margin-top: 5%;
+
+                .preguntaInstrucciones__contenedorPregunta__pregunta__h2{
+                    font-size: 6vh;
+                    font-weight: bold;
+                    background-color: $colorSecundario;
+                    text-align: center;
+                    border-radius: 10px;
+                }
+
+                .preguntaInstrucciones__contenedorInstrucciones{
+                    margin-top: 0%;
+
+                    .preguntaInstrucciones__contenedorInstrucciones__instrucciones{
+                        background-color: $colorSecundario;
+                        color: $colorTerciario;
+                        text-align: center;
+                        font-weight: bold;
+                        font-size: 4vh;
+                        margin-top: 5%;
+                        border-radius: 10px;
+                    }
+
+                    .preguntaInstrucciones__contenedorInstrucciones__instrucción--dos{
+                        background-color: $colorTerciario;
+                        color: $colorSecundario;
+                        text-align: center;
+                        font-weight: bold;
+                        font-size: 4vh;
+                        margin-top: 5%;
+                        border-radius: 10px;
+                    }
+
+                    .preguntaInstrucciones__contenedorInstrucciones__instrucciones:hover{
+                        transform: scale(1.1, 1.1);
+                        transition-duration: 1s;
+                    }
+
+                    .preguntaInstrucciones__contenedorInstrucciones__instrucción--dos:hover{
+                        transform: scale(1.1, 1.1);
+                        transition-duration: 1s;
+                    }
+
+                }
+
+            }
+
+
+            /*MODAL*/
+            .contenedorModalBotón{
+                margin-left: 0%;
+                margin-right: 0%;
+                padding-left: 0%;
+                padding-right: 0%;
+                margin-top: 2%;
+
+                .contenedorModalBotón__contenedorBotónRecordá__botónRecordá{
+                    background-color: $colorSecundario;
+                    font-weight: bold;
+                    width: 20vh;
+                    height: 7vh;
+                    font-size: 3vh;
+                    justify-self: center;
+                    font-family: 'Raleway', sans-serif;
+                    color: $colorCuaternario;
+                }
+
+                .contenedorModalBotón__contenedorBotónRecordá__botónRecordá:hover{
+                    background-color: $colorHover;
+                    font-weight: bold;
+                    color: $colorCuaternario;
+                }
+                
+                .contenedorModalBotón__contenedorModal__dialog__contenido{
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: bold;
+                    color: $colorCuaternario;
+
+                    .contenedorModalBotón__contenedorModal__dialog__contenido__footer__botónModalAceptar{
+                        background-color: $colorSecundario;
+                        font-weight: bold;
+                        font-family: 'Raleway', sans-serif;
+                        color: $colorCuaternario;
+                    }
+
+                    .contenedorModalBotón__contenedorModal__dialog__contenido__footer__botónModalAceptar:hover{
+                        background-color: $colorHover;
+                        font-weight: bold;
+                        color: $colorCuaternario;
+                    }
+
+                    .contenedorModalBotón__contenedorModal__dialog__contenido__header__título{
+                        font-family: 'Raleway', sans-serif;
+                        font-weight: bold;
+                        color: $colorCuaternario;
+                    }
+
+                }
+
+            }
+
+
+            /*FOTOS*/
+            .fotos{
+                margin-top: 5%;
+            }
+
+
+            /*FORMULARIO*/
+            .preguntaFormulario{
+                margin-top: 5%;
+
+                .preguntaFormulario__contenedorPregunta{
+                    margin-left: 0%;
+
+                    .preguntaFormulario__contenedorPregunta__pregunta__h2{
+                        font-size: 6vh;
+                        font-weight: bold;
+                        background-color: $colorSecundario;
+                        text-align: center;
+                        color: $colorCuaternario;
+                        border-radius: 10px;
+                    }
+
+                }
+
+                .preguntaFormulario__contenedorFormulario{
+                    margin-top: 5%;
+
+                    ::placeholder{
+                        color: $colorPlaceholder;
+                        font-weight: bold;
+                        font-family: 'Raleway', sans-serif;
+                    }
+
+                    .preguntaFormulario__contenedorFormulario__formulario__label{
+                        font-weight: bold;
+                        font-family: 'Raleway', sans-serif;
+                        color: $colorCuaternario;
+                    }
+
+                    .preguntaFormulario__contenedorFormulario__formulario__select{
+                        color: $colorPlaceholder;
+                        font-weight: bold;
+                        font-family: 'Raleway', sans-serif;
+                        border: 3px solid $colorTerciario;
+                    }
+
+                    .preguntaFormulario__contenedorFormulario__formulario__control{
+                        border: 3px solid $colorTerciario;
+                    }
+
+                    .preguntaFormulario__contenedorFormulario__formulario__enviar{
+                        background-color: $colorSecundario;
+                        font-weight: bold;
+                        color: $colorCuaternario;
+                    }
+
+                    .preguntaFormulario__contenedorFormulario__formulario__enviar:hover{
+                        background-color: $colorHover;
+                        font-weight: bold;
+                        color: $colorCuaternario;
+                    }
+
+                }
+
+            }
+
+            
+            /*PRECIOS*/
+            .preciosTabla{
+                margin-top: 5%;
+
+                .preciosTabla__contenedorPrecios{
+
+                    margin-left: 0%;
+
+                    .preciosTabla__contenedorPrecios__precios__h2{
+                        font-size: 6vh;
+                        font-weight: bold;
+                        background-color: $colorSecundario;
+                        text-align: center;
+                        color: $colorCuaternario;
+                        border-radius: 10px;
+                    }
+
+                }
+
+                .preciosTabla__contenedorTabla{
+                    margin-top: 5%;
+
+                    thead{
+                        border: 3px solid $colorTerciario;
+                    }
+
+                    tbody{
+                        border: 3px solid $colorTerciario;
+                    }
+
+                    tr{
+                        border: 3px solid $colorTerciario;
+
+                        th{
+                            text-align: center;
+                            font-weight: bold;
+                            font-family: 'Raleway', sans-serif;
+                            font-size: 3.5vh;
+                            color: $colorCuaternario;
+                            border: 3px solid $colorTerciario;
+                        }
+
+                        td{
+                            border: 3px solid $colorTerciario;
+                            text-align: center;
+                            font-weight: bold;
+                            font-family: 'Raleway', sans-serif;
+                            font-size: 3.5vh;
+                            color: $colorCuaternario;
+                        }
+
+                    }
+
+                }
+
+            }
+
+
+        /*PIE DE PÁGINA*/
+        .contenedorFooter{
+            margin-top: 5%;
+
+            .contenedorFooter__footer{
+                background-color: $colorSecundario;
+                border-radius: 10px;
+
+                .contenedorFooter__footer__texto{
+                    font-weight: bold;
+                    text-align: center;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 3vh;
+                    color: $colorCuaternario;
+                    border-radius: 10px;
+                }
+
+            }
+
+        }
+
+    
+}
+
+
+/*MEDIA QUERIES XS*/
+@media only screen and (max-width: 576px){
+
+
+    /*FONDO*/
+    body{
+        background-color: $colorPrincipal;
+    }
+
+
+    /*INFORMACIÓN VASOS*/
+    .infoVasosTexto{
+        margin-top: 5%;
+
+        .infoVasosTexto__contenedorInfoVasos__infoVasos__h2{
+            font-size: 6vh;
+            font-weight: bold;
+            background-color: $colorSecundario;
+            text-align: center;
+            color: $colorCuaternario; 
+            border-radius: 10px;
+        }
+
+        .infoVasosTexto__contenedorTexto{
+            margin-top: 0%;
+
+            .infoVasosTexto__contenedorTexto__texto{
+                background-color: $colorSecundario;
+                color: $colorTerciario;
+                text-align: center;
+                font-weight: bold;
+                font-size: 3.5vh;
+                margin-top: 5%;
+                border-radius: 10px;
+            }
+
+            .infoVasosTexto__contenedorTexto__texto--2{
+                background-color: $colorSecundario;
+                color: $colorTerciario;
+                text-align: center;
+                font-weight: bold;
+                font-size: 3.5vh;
+                margin-top: 5%;
+                border-radius: 10px;
+            }
+
+        }
+
+    }
+
+
+    /*PRECAUCIÓN*/
+    .precaucion{
+        margin-top: 3%;
+
+        .precaucion__contenedorPrecaucion__h2{
+            font-size: 3.5vh;
+            font-weight: bold;
+            background-color: $colorTerciario;
+            text-align: center;
+            color: $colorSecundario;
+            border-radius: 10px;
+        }
+
+    }
+
+
+    /*INFORMACIÓN STICKERS*/
+    .infoStickersTexto{
+        margin-top: 5%;
+
+        .infoStickersTexto__contenedorInfoStickers__infoStickers__h2{
+            font-size: 6vh;
+            font-weight: bold;
+            background-color: $colorSecundario;
+            text-align: center;
+            color: $colorCuaternario;
+            border-radius: 10px;
+        }
+
+        .infoStickersTexto__contenedorTexto{
+            margin-top: 5%;
+            
+            .infoStickersTexto__contenedorTexto__texto{
+                background-color: $colorTerciario;
+                color: $colorSecundario;
+                text-align: center;
+                font-weight: bold;
+                font-size: 3.5vh;
+                border-radius: 10px;
+            }
+
+        }
+        
+    }
+
+
+    /*INFORMACIÓN ENVÍOS*/
+    .enviosInformacion{
+        margin-top: 5%;
+
+        .enviosInformacion__contenedorInformacion__informacion__h2{
+            font-size: 6vh;
+            font-weight: bold;
+            background-color: $colorSecundario;
+            text-align: center;
+            color: $colorCuaternario;
+            border-radius: 10px;
+        }
+
+        .enviosInformacion__contenedorInformacion{
+            margin-top: 0%;
+
+            .enviosInformacion__contenedorInformacion__informacion{
+                background-color: $colorSecundario;
+                color: $colorTerciario;
+                text-align: center;
+                font-weight: bold;
+                font-size: 4vh;
+                margin-top: 5%;
+                border-radius: 10px;
+            }
+
+            .enviosInformacion__contenedorInformacion__informacion--dos{
+                background-color: $colorTerciario;
+                color: $colorSecundario;
+                text-align: center;
+                font-weight: bold;
+                font-size: 4vh;
+                margin-top: 5%;
+                border-radius: 10px;
+            }
+
+        }
+
+    }
+
+
+    /*CATÁLOGO DE STICKERS*/
+
+    
+        /*MAIN*/
+        main{
+            font-family: 'Raleway', sans-serif;
+        }
+
+
+            /*ARTISTA Y STICKER*/
+            .artistaSticker{
+                margin-top: 5%;
+
+                .artistaSticker__contenedorArtista__artista__h2{
+                    font-size: 6vh;
+                    font-weight: bold;
+                    background-color: $colorSecundario;
+                    text-align: center;
+                    color: $colorCuaternario;
+                    border-radius: 10px; 
+                }
+
+                .artistaSticker__contenedorStickers{
+                    margin-top: 5%;
+                }
+
+            }
+
+
+        /*PIE DE PÁGINA*/
+        .contenedorFooter2__footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            margin-top: 5%;
+        }
+        .contenedorRegresoIndex{
+            background-color: $colorSecundario;
+            border-radius: 10px;
+
+            .regresoIndex{
+                text-align: center;
+                text-decoration: none;
+                color: $colorCuaternario;
+                font-family: 'Raleway', sans-serif;
+                font-size: 3vh;
+                font-weight: bold;
+            }
+
+            .regresoIndex:hover{
+                background-color: $colorHover;
+                border-radius: 10px;
+            }
+
+        }
+
+
+    /*INDEX*/
+
+
+        /*HEADER*/
+        .contenedorNav{
+            background-color: $colorSecundario;
+
+            .contenedorNav__nav{
+                background-color: $colorSecundario;
+
+                .contenedorNav__nav__títuloItems{
+                    font-weight: bold;
+                    color: $colorCuaternario;
+                    font-family: 'Raleway', sans-serif;
+
+                    .contenedorNav__nav__títuloItems__título{
+                        font-weight: bold;
+                        margin-bottom: 0%;
+                        font-size: 4vh;
+                        margin-right: 3%;
+                        color: $colorCuaternario;
+                    }
+
+                }
+
+            }
+
+        }
+
+            
+        /*MAIN*/
+        main{
+            font-family: 'Raleway', sans-serif;
+        }
+
+
+            /*SOBRE NOSOTROS*/
+            .sobreNosotrosTexto{
+                margin-top: 5%;
+
+                .sobreNosotrosTexto__contenedorSobreNosotros__sobreNosotros__h2{
+                    font-size: 6vh;
+                    font-weight: bold;
+                    background-color: $colorSecundario;
+                    text-align: center;
+                    color: $colorCuaternario;
+                    border-radius: 10px; 
+                }
+
+                .sobreNosotrosTexto__contenedorTexto{
+                    margin-top: 5%;
+                    
+                    .sobreNosotrosTexto__contenedorTexto__texto{
+                        background-color: $colorTerciario;
+                        color: $colorSecundario;
+                        text-align: center;
+                        font-weight: bold;
+                        font-size: 3.5vh;
+                        border-radius: 10px;
+                    }
+
+                }
+                
+            }
+
+
+            /*INSTRUCCIONES*/
+            .preguntaInstrucciones{
+                margin-top: 10%;
+
+                .preguntaInstrucciones__contenedorPregunta__pregunta__h2{
+                    font-size: 6vh;
+                    font-weight: bold;
+                    background-color: $colorSecundario;
+                    text-align: center;
+                    color: $colorCuaternario;
+                    border-radius: 10px;
+                }
+
+                .preguntaInstrucciones__contenedorInstrucciones{
+                    margin-top: 0%;
+
+                    .preguntaInstrucciones__contenedorInstrucciones__instrucciones{
+                        background-color: $colorSecundario;
+                        color: $colorTerciario;
+                        text-align: center;
+                        font-weight: bold;
+                        font-size: 4vh;
+                        margin-top: 10%;
+                        border-radius: 10px;
+                    }
+
+                    .preguntaInstrucciones__contenedorInstrucciones__instrucción--dos{
+                        background-color: $colorTerciario;
+                        color: $colorSecundario;
+                        text-align: center;
+                        font-weight: bold;
+                        font-size: 4vh;
+                        margin-top: 10%;
+                        border-radius: 10px;
+                    }
+
+                    .preguntaInstrucciones__contenedorInstrucciones__instrucciones:hover{
+                        transform: scale(1.1, 1.1);
+                        transition-duration: 1s;
+                    }
+
+                    .preguntaInstrucciones__contenedorInstrucciones__instrucción--dos:hover{
+                        transform: scale(1.1, 1.1);
+                        transition-duration: 1s;
+                    }
+
+                }
+
+            }
+
+
+            /*MODAL*/
+            .contenedorModalBotón{
+                margin-left: 0%;
+                margin-right: 0%;
+                padding-left: 0%;
+                padding-right: 0%;
+                margin-top: 2%;
+
+                .contenedorModalBotón__contenedorBotónRecordá__botónRecordá{
+                    background-color: $colorSecundario;
+                    font-weight: bold;
+                    width: 20vh;
+                    height: 7vh;
+                    font-size: 3vh;
+                    justify-self: center;
+                    font-family: 'Raleway', sans-serif;
+                    color: $colorCuaternario;
+                }
+
+                .contenedorModalBotón__contenedorBotónRecordá__botónRecordá:hover{
+                    background-color: $colorHover;
+                    font-weight: bold;
+                    color: $colorCuaternario;
+                }
+
+                .contenedorModalBotón__contenedorModal__dialog__contenido{
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: bold;
+                    color: $colorCuaternario;
+
+                    .contenedorModalBotón__contenedorModal__dialog__contenido__footer__botónModalAceptar{
+                        background-color: $colorSecundario;
+                        font-weight: bold;
+                        font-family: 'Raleway', sans-serif;
+                        color: $colorCuaternario;
+                    }
+
+                    .contenedorModalBotón__contenedorModal__dialog__contenido__footer__botónModalAceptar:hover{
+                        background-color: $colorHover;
+                        font-weight: bold;
+                        color: $colorCuaternario;
+                    }
+
+                    .contenedorModalBotón__contenedorModal__dialog__contenido__header__título{
+                        font-family: 'Raleway', sans-serif;
+                        font-weight: bold;
+                        color: $colorCuaternario;
+                    }
+
+                }
+
+            }
+
+
+            /*FOTOS*/
+            .fotos{
+                margin-top: 10%;
+            }
+
+
+            /*FORMULARIO*/
+            .preguntaFormulario{
+                margin-top: 10%;
+
+                .preguntaFormulario__contenedorPregunta{
+                    margin-left: 0%;
+
+                    .preguntaFormulario__contenedorPregunta__pregunta__h2{
+                        font-size: 6vh;
+                        font-weight: bold;
+                        background-color: $colorSecundario;
+                        text-align: center;
+                        color: $colorCuaternario;
+                        border-radius: 10px;
+                    }
+
+                }
+
+                .contenedorFormulario{
+                    margin-top: 5%;
+
+                    ::placeholder{
+                        color: $colorPlaceholder;
+                        font-weight: bold;
+                        font-family: 'Raleway', sans-serif;
+                    }
+
+                    .preguntaFormulario__contenedorFormulario__formulario__label{
+                        font-weight: bold;
+                        font-family: 'Raleway', sans-serif;
+                        color: $colorCuaternario;
+                    }
+
+                    .preguntaFormulario__contenedorFormulario__formulario__select{
+                        color: $colorPlaceholder;
+                        font-weight: bold;
+                        font-family: 'Raleway', sans-serif;
+                        border: 3px solid $colorTerciario;
+                    }
+
+                    .preguntaFormulario__contenedorFormulario__formulario__control{
+                        border: 3px solid $colorTerciario;
+                    }
+
+                    .preguntaFormulario__contenedorFormulario__formulario__enviar{
+                        background-color: $colorSecundario;
+                        font-weight: bold;
+                        color: $colorCuaternario;
+                    }
+
+                    .preguntaFormulario__contenedorFormulario__formulario__enviar:hover{
+                        background-color: $colorHover;
+                        font-weight: bold;
+                        color: $colorCuaternario;
+                    }
+
+                }
+
+            }
+
+            
+            /*PRECIOS*/
+            .preciosTabla{
+                margin-top: 10%;
+
+                .preciosTabla__contenedorPrecios{
+
+                    margin-left: 0%;
+
+                    .preciosTabla__contenedorPrecios__precios__h2{
+                        font-size: 6vh;
+                        font-weight: bold;
+                        background-color: $colorSecundario;
+                        text-align: center;
+                        color: $colorCuaternario;
+                        border-radius: 10px;
+                    }
+
+                }
+
+                .preciosTabla__contenedorTabla{
+                    margin-top: 10%;
+
+                    thead{
+                        border: 3px solid $colorTerciario;
+                    }
+
+                    tbody{
+                        border: 3px solid $colorTerciario;
+                    }
+
+                    tr{
+                        border: 3px solid $colorTerciario;
+
+                        th{
+                            text-align: center;
+                            font-weight: bold;
+                            font-family: 'Raleway', sans-serif;
+                            font-size: 3.5vh;
+                            color: $colorCuaternario;
+                            border: 3px solid $colorTerciario;
+                        }
+
+                        td{
+                            border: 3px solid $colorTerciario;
+                            text-align: center;
+                            font-weight: bold;
+                            font-family: 'Raleway', sans-serif;
+                            font-size: 3.5vh;
+                            color: $colorCuaternario;
+                        }
+
+                    }
+
+                }
+
+            }
+
+
+        /*PIE DE PÁGINA*/
+        .contenedorFooter{
+            margin-top: 10%;
+
+            .contenedorFooter__footer{
+                background-color: $colorSecundario;
+                border-radius: 10px;
+
+                .contenedorFooter__footer__texto{
+                    font-weight: bold;
+                    text-align: center;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 3vh;
+                    color: $colorCuaternario;
+                    border-radius: 10px;
+                }
+
+            }
+            
+        }
+
+    
+}

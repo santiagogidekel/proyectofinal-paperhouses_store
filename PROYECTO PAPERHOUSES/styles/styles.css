@@ -1,0 +1,1292 @@
+@charset "UTF-8";
+/*VARIABLES*/
+/*MEDIA QUERIES ESCRITORIO*/
+@media only screen and (min-width: 768px) {
+  /*FONDO*/
+  body {
+    background-color: #fffcf5; }
+  /*INFORMACIÓN*/
+  /*INFORMACIÓN VASOS*/
+  .infoVasosTexto {
+    margin-top: 5%; }
+    .infoVasosTexto .infoVasosTexto__contenedorInfoVasos__infoVasos__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      color: black;
+      border-radius: 10px; }
+    .infoVasosTexto .infoVasosTexto__contenedorTexto {
+      margin-top: 5%; }
+      .infoVasosTexto .infoVasosTexto__contenedorTexto .infoVasosTexto__contenedorTexto__texto {
+        background-color: #ffebd3;
+        color: salmon;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3.5vh;
+        margin-right: 2%;
+        border-radius: 10px; }
+      .infoVasosTexto .infoVasosTexto__contenedorTexto .infoVasosTexto__contenedorTexto__texto--2 {
+        background-color: #ffebd3;
+        color: salmon;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3.5vh;
+        margin-left: 2%;
+        border-radius: 10px; }
+  /*PRECAUCIÓN*/
+  .precaucion {
+    margin-top: 3%; }
+    .precaucion .precaucion__contenedorPrecaucion__h2 {
+      font-size: 3.5vh;
+      font-weight: bold;
+      background-color: salmon;
+      text-align: center;
+      color: #ffebd3;
+      border-radius: 10px; }
+  /*INFORMACIÓN STICKERS*/
+  .infoStickersTexto {
+    margin-top: 5%; }
+    .infoStickersTexto .infoStickersTexto__contenedorInfoStickers__infoStickers__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      color: black;
+      border-radius: 10px; }
+    .infoStickersTexto .infoStickersTexto__contenedorTexto {
+      margin-top: 5%; }
+      .infoStickersTexto .infoStickersTexto__contenedorTexto .infoStickersTexto__contenedorTexto__texto {
+        background-color: salmon;
+        color: #ffebd3;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3.5vh;
+        border-radius: 10px; }
+  /*INFORMACIÓN ENVÍOS*/
+  .enviosInformacion {
+    margin-top: 5%; }
+    .enviosInformacion .enviosInformacion__contenedorInformacion__informacion__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      color: black;
+      border-radius: 10px; }
+    .enviosInformacion .enviosInformacion__contenedorInformacion {
+      margin-top: 5%; }
+      .enviosInformacion .enviosInformacion__contenedorInformacion .enviosInformacion__contenedorInformacion__informacion {
+        background-color: #ffebd3;
+        color: salmon;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3.5vh;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 10px; }
+      .enviosInformacion .enviosInformacion__contenedorInformacion .enviosInformacion__contenedorInformacion__informacion--dos {
+        background-color: salmon;
+        color: #ffebd3;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3.5vh;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 10px; }
+  /*CATÁLOGO DE STICKERS*/
+  /*MAIN*/
+  main {
+    font-family: 'Raleway', sans-serif; }
+  /*ARTISTA Y STICKER*/
+  .artistaSticker {
+    margin-top: 5%; }
+    .artistaSticker .artistaSticker__contenedorArtista__artista__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      color: black;
+      border-radius: 10px; }
+    .artistaSticker .artistaSticker__contenedorStickers {
+      margin-top: 5%; }
+  /*PIE DE PÁGINA*/
+  .contenedorFooter2__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 5%; }
+  .contenedorRegresoIndex {
+    background-color: #ffebd3;
+    border-radius: 10px; }
+    .contenedorRegresoIndex .regresoIndex {
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      font-family: 'Raleway', sans-serif;
+      font-size: 3vh;
+      font-weight: bold; }
+    .contenedorRegresoIndex .regresoIndex:hover {
+      background-color: #ffe2be;
+      border-radius: 10px; }
+  /*INDEX*/
+  /*HEADER*/
+  .contenedorNav {
+    background-color: #ffebd3; }
+    .contenedorNav .contenedorNav__nav {
+      background-color: #ffebd3; }
+      .contenedorNav .contenedorNav__nav .contenedorNav__nav__títuloItems {
+        font-weight: bold;
+        color: black;
+        font-family: 'Raleway', sans-serif; }
+        .contenedorNav .contenedorNav__nav .contenedorNav__nav__títuloItems .contenedorNav__nav__títuloItems__título {
+          font-weight: bold;
+          margin-bottom: 0%;
+          font-size: 3vh;
+          color: black;
+          margin-right: 3%; }
+  /*MAIN*/
+  main {
+    font-family: 'Raleway', sans-serif; }
+  /*SOBRE NOSOTROS*/
+  .sobreNosotrosTexto {
+    margin-top: 5%; }
+    .sobreNosotrosTexto .sobreNosotrosTexto__contenedorSobreNosotros__sobreNosotros__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      color: black;
+      border-radius: 10px; }
+    .sobreNosotrosTexto .sobreNosotrosTexto__contenedorTexto {
+      margin-top: 5%; }
+      .sobreNosotrosTexto .sobreNosotrosTexto__contenedorTexto .sobreNosotrosTexto__contenedorTexto__texto {
+        background-color: salmon;
+        color: #ffebd3;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3.5vh;
+        border-radius: 10px; }
+  /*INSTRUCCIONES*/
+  .preguntaInstrucciones {
+    margin-top: 5%; }
+    .preguntaInstrucciones .preguntaInstrucciones__contenedorPregunta__pregunta__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      color: black;
+      border-radius: 10px; }
+    .preguntaInstrucciones .preguntaInstrucciones__contenedorInstrucciones {
+      margin-top: 5%; }
+      .preguntaInstrucciones .preguntaInstrucciones__contenedorInstrucciones .preguntaInstrucciones__contenedorInstrucciones__instrucciones {
+        background-color: #ffebd3;
+        color: salmon;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3.5vh;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 10px; }
+      .preguntaInstrucciones .preguntaInstrucciones__contenedorInstrucciones .preguntaInstrucciones__contenedorInstrucciones__instrucciones:hover {
+        transform: scale(1.1, 1.1);
+        transition-duration: 1s; }
+      .preguntaInstrucciones .preguntaInstrucciones__contenedorInstrucciones .preguntaInstrucciones__contenedorInstrucciones__instrucción--dos {
+        background-color: salmon;
+        color: #ffebd3;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3.5vh;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 10px; }
+      .preguntaInstrucciones .preguntaInstrucciones__contenedorInstrucciones .preguntaInstrucciones__contenedorInstrucciones__instrucción--dos:hover {
+        transform: scale(1.1, 1.1);
+        transition-duration: 1s; }
+  /*MODAL*/
+  .contenedorModalBotón {
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-top: 2%; }
+    .contenedorModalBotón .contenedorModalBotón__contenedorBotónRecordá__botónRecordá {
+      background-color: #ffebd3;
+      font-weight: bold;
+      width: 20vh;
+      height: 7vh;
+      color: black;
+      font-size: 3vh;
+      justify-self: center;
+      font-family: 'Raleway', sans-serif; }
+    .contenedorModalBotón .contenedorModalBotón__contenedorBotónRecordá__botónRecordá:hover {
+      background-color: #ffe2be;
+      font-weight: bold;
+      color: black; }
+    .contenedorModalBotón .contenedorModalBotón__contenedorModal__dialog__contenido {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      color: black; }
+      .contenedorModalBotón .contenedorModalBotón__contenedorModal__dialog__contenido .contenedorModalBotón__contenedorModal__dialog__contenido__footer__botónModalAceptar {
+        background-color: #ffebd3;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: black; }
+      .contenedorModalBotón .contenedorModalBotón__contenedorModal__dialog__contenido .contenedorModalBotón__contenedorModal__dialog__contenido__footer__botónModalAceptar:hover {
+        background-color: #ffe2be;
+        font-weight: bold;
+        color: black; }
+      .contenedorModalBotón .contenedorModalBotón__contenedorModal__dialog__contenido .contenedorModalBotón__contenedorModal__dialog__contenido__header__título {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        color: black; }
+  /*FOTOS*/
+  .fotos {
+    margin-top: 5%; }
+  /*FORMULARIO*/
+  .preguntaFormulario {
+    margin-top: 5%; }
+    .preguntaFormulario .preguntaFormulario__contenedorPregunta {
+      margin-left: 0%; }
+      .preguntaFormulario .preguntaFormulario__contenedorPregunta .preguntaFormulario__contenedorPregunta__pregunta__h2 {
+        font-size: 6vh;
+        font-weight: bold;
+        background-color: #ffebd3;
+        text-align: center;
+        color: black;
+        border-radius: 10px; }
+    .preguntaFormulario .preguntaFormulario__contenedorFormulario {
+      margin-top: 5%; }
+      .preguntaFormulario .preguntaFormulario__contenedorFormulario ::placeholder {
+        color: gray;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif; }
+      .preguntaFormulario .preguntaFormulario__contenedorFormulario .preguntaFormulario__contenedorFormulario__formulario__label {
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: black; }
+      .preguntaFormulario .preguntaFormulario__contenedorFormulario .preguntaFormulario__contenedorFormulario__formulario__select {
+        color: gray;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        border: 3px solid salmon; }
+      .preguntaFormulario .preguntaFormulario__contenedorFormulario .preguntaFormulario__contenedorFormulario__formulario__control {
+        border: 3px solid salmon; }
+      .preguntaFormulario .preguntaFormulario__contenedorFormulario .preguntaFormulario__contenedorFormulario__formulario__enviar {
+        background-color: #ffebd3;
+        font-weight: bold;
+        color: black; }
+      .preguntaFormulario .preguntaFormulario__contenedorFormulario .preguntaFormulario__contenedorFormulario__formulario__enviar:hover {
+        background-color: #ffe2be;
+        font-weight: bold;
+        color: black; }
+  /*PRECIOS*/
+  .preciosTabla {
+    margin-top: 5%; }
+    .preciosTabla .preciosTabla__contenedorPrecios {
+      margin-left: 0%; }
+      .preciosTabla .preciosTabla__contenedorPrecios .preciosTabla__contenedorPrecios__precios__h2 {
+        font-size: 6vh;
+        font-weight: bold;
+        background-color: #ffebd3;
+        text-align: center;
+        color: black;
+        border-radius: 10px; }
+    .preciosTabla .preciosTabla__contenedorTabla {
+      margin-top: 5%; }
+      .preciosTabla .preciosTabla__contenedorTabla thead {
+        border: 3px solid salmon;
+        border-radius: 10px; }
+      .preciosTabla .preciosTabla__contenedorTabla tbody {
+        border: 3px solid salmon; }
+      .preciosTabla .preciosTabla__contenedorTabla tr {
+        border: 3px solid salmon; }
+        .preciosTabla .preciosTabla__contenedorTabla tr th {
+          text-align: center;
+          font-weight: bold;
+          font-family: 'Raleway', sans-serif;
+          font-size: 3.5vh;
+          color: black;
+          border: 3px solid salmon; }
+        .preciosTabla .preciosTabla__contenedorTabla tr td {
+          border: 3px solid salmon;
+          text-align: center;
+          font-weight: bold;
+          font-family: 'Raleway', sans-serif;
+          font-size: 3.5vh;
+          color: black; }
+  /*PIE DE PÁGINA*/
+  .contenedorFooter {
+    margin-top: 5%; }
+    .contenedorFooter .contenedorFooter__footer {
+      background-color: #ffebd3;
+      border-radius: 10px; }
+      .contenedorFooter .contenedorFooter__footer .contenedorFooter__footer__texto {
+        font-weight: bold;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 3vh;
+        color: black; } }
+
+/*MEDIA QUERIES TABLET*/
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  /*FONDO*/
+  body {
+    background-color: #fffcf5; }
+  /*INFORMACIÓN VASOS*/
+  .infoVasosTexto {
+    margin-top: 5%; }
+    .infoVasosTexto .infoVasosTexto__contenedorInfoVasos__infoVasos__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      color: black;
+      border-radius: 10px; }
+    .infoVasosTexto .infoVasosTexto__contenedorTexto {
+      margin-top: 5%; }
+      .infoVasosTexto .infoVasosTexto__contenedorTexto .infoVasosTexto__contenedorTexto__texto {
+        background-color: #ffebd3;
+        color: salmon;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3.5vh;
+        margin-right: 2%;
+        border-radius: 10px; }
+      .infoVasosTexto .infoVasosTexto__contenedorTexto .infoVasosTexto__contenedorTexto__texto--2 {
+        background-color: #ffebd3;
+        color: salmon;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3.5vh;
+        margin-right: 2%;
+        border-radius: 10px; }
+  /*PRECAUCIÓN*/
+  .precaucion {
+    margin-top: 3%; }
+    .precaucion .precaucion__contenedorPrecaucion__h2 {
+      font-size: 3.5vh;
+      font-weight: bold;
+      background-color: salmon;
+      text-align: center;
+      color: #ffebd3;
+      border-radius: 10px; }
+  /*INFORMACIÓN STICKERS*/
+  .infoStickersTexto {
+    margin-top: 5%; }
+    .infoStickersTexto .infoStickersTexto__contenedorInfoStickers__infoStickers__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      color: black;
+      border-radius: 10px; }
+    .infoStickersTexto .infoStickersTexto__contenedorTexto {
+      margin-top: 5%; }
+      .infoStickersTexto .infoStickersTexto__contenedorTexto .infoStickersTexto__contenedorTexto__texto {
+        background-color: salmon;
+        color: #ffebd3;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3.5vh;
+        border-radius: 10px; }
+  /*INFORMACIÓN ENVÍOS*/
+  .enviosInformacion {
+    margin-top: 5%; }
+    .enviosInformacion .enviosInformacion__contenedorInformacion__informacion__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      color: black;
+      border-radius: 10px; }
+    .enviosInformacion .enviosInformacion__contenedorInformacion {
+      margin-top: 0%; }
+      .enviosInformacion .enviosInformacion__contenedorInformacion .enviosInformacion__contenedorInformacion__informacion {
+        background-color: #ffebd3;
+        color: salmon;
+        text-align: center;
+        font-weight: bold;
+        font-size: 4vh;
+        margin-top: 5%;
+        border-radius: 10px; }
+      .enviosInformacion .enviosInformacion__contenedorInformacion .enviosInformacion__contenedorInformacion__informacion--dos {
+        background-color: salmon;
+        color: #ffebd3;
+        text-align: center;
+        font-weight: bold;
+        font-size: 4vh;
+        margin-top: 5%;
+        border-radius: 10px; }
+  /*CATÁLOGO DE STICKERS*/
+  /*MAIN*/
+  main {
+    font-family: 'Raleway', sans-serif; }
+  /*ARTISTA Y STICKER*/
+  .artistaSticker {
+    margin-top: 5%; }
+    .artistaSticker .artistaSticker__contenedorArtista__artista__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      color: black;
+      border-radius: 10px; }
+    .artistaSticker .artistaSticker__contenedorStickers {
+      margin-top: 5%; }
+  /*PIE DE PÁGINA*/
+  .contenedorFooter2__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 5%; }
+  .contenedorRegresoIndex {
+    background-color: #ffebd3;
+    border-radius: 10px; }
+    .contenedorRegresoIndex .regresoIndex {
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      font-family: 'Raleway', sans-serif;
+      font-size: 3vh;
+      font-weight: bold; }
+    .contenedorRegresoIndex .regresoIndex:hover {
+      background-color: #ffe2be;
+      border-radius: 10px; }
+  /*INDEX*/
+  /*HEADER*/
+  .contenedorNav {
+    background-color: #ffebd3; }
+    .contenedorNav .contenedorNav__nav {
+      background-color: #ffebd3; }
+      .contenedorNav .contenedorNav__nav .contenedorNav__nav__títuloItems {
+        font-weight: bold;
+        color: black;
+        font-family: 'Raleway', sans-serif; }
+        .contenedorNav .contenedorNav__nav .contenedorNav__nav__títuloItems .contenedorNav__nav__títuloItems__título {
+          font-weight: bold;
+          margin-bottom: 0%;
+          font-size: 4vh;
+          margin-right: 3%;
+          color: black; }
+  /*MAIN*/
+  main {
+    font-family: 'Raleway', sans-serif; }
+  /*SOBRE NOSOTROS*/
+  .sobreNosotrosTexto {
+    margin-top: 5%; }
+    .sobreNosotrosTexto .sobreNosotrosTexto__contenedorSobreNosotros__sobreNosotros__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      color: black;
+      border-radius: 10px; }
+    .sobreNosotrosTexto .sobreNosotrosTexto__contenedorTexto {
+      margin-top: 5%; }
+      .sobreNosotrosTexto .sobreNosotrosTexto__contenedorTexto .sobreNosotrosTexto__contenedorTexto__texto {
+        background-color: salmon;
+        color: #ffebd3;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3.5vh;
+        border-radius: 10px; }
+  /*INSTRUCCIONES*/
+  .preguntaInstrucciones {
+    margin-top: 5%; }
+    .preguntaInstrucciones .preguntaInstrucciones__contenedorPregunta__pregunta__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      border-radius: 10px; }
+    .preguntaInstrucciones .preguntaInstrucciones__contenedorInstrucciones {
+      margin-top: 0%; }
+      .preguntaInstrucciones .preguntaInstrucciones__contenedorInstrucciones .preguntaInstrucciones__contenedorInstrucciones__instrucciones {
+        background-color: #ffebd3;
+        color: salmon;
+        text-align: center;
+        font-weight: bold;
+        font-size: 4vh;
+        margin-top: 5%;
+        border-radius: 10px; }
+      .preguntaInstrucciones .preguntaInstrucciones__contenedorInstrucciones .preguntaInstrucciones__contenedorInstrucciones__instrucción--dos {
+        background-color: salmon;
+        color: #ffebd3;
+        text-align: center;
+        font-weight: bold;
+        font-size: 4vh;
+        margin-top: 5%;
+        border-radius: 10px; }
+      .preguntaInstrucciones .preguntaInstrucciones__contenedorInstrucciones .preguntaInstrucciones__contenedorInstrucciones__instrucciones:hover {
+        transform: scale(1.1, 1.1);
+        transition-duration: 1s; }
+      .preguntaInstrucciones .preguntaInstrucciones__contenedorInstrucciones .preguntaInstrucciones__contenedorInstrucciones__instrucción--dos:hover {
+        transform: scale(1.1, 1.1);
+        transition-duration: 1s; }
+  /*MODAL*/
+  .contenedorModalBotón {
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-top: 2%; }
+    .contenedorModalBotón .contenedorModalBotón__contenedorBotónRecordá__botónRecordá {
+      background-color: #ffebd3;
+      font-weight: bold;
+      width: 20vh;
+      height: 7vh;
+      font-size: 3vh;
+      color: black;
+      justify-self: center;
+      font-family: 'Raleway', sans-serif; }
+    .contenedorModalBotón .contenedorModalBotón__contenedorBotónRecordá__botónRecordá:hover {
+      background-color: #ffe2be;
+      font-weight: bold;
+      color: black; }
+    .contenedorModalBotón .contenedorModalBotón__contenedorModal__dialog__contenido {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      color: black; }
+      .contenedorModalBotón .contenedorModalBotón__contenedorModal__dialog__contenido .contenedorModalBotón__contenedorModal__dialog__contenido__footer__botónModalAceptar {
+        background-color: #ffebd3;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: black; }
+      .contenedorModalBotón .contenedorModalBotón__contenedorModal__dialog__contenido .contenedorModalBotón__contenedorModal__dialog__contenido__footer__botónModalAceptar:hover {
+        background-color: #ffe2be;
+        font-weight: bold;
+        color: black; }
+      .contenedorModalBotón .contenedorModalBotón__contenedorModal__dialog__contenido .contenedorModalBotón__contenedorModal__dialog__contenido__header__título {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        color: black; }
+  /*FOTOS*/
+  .fotos {
+    margin-top: 5%; }
+  /*FORMULARIO*/
+  .preguntaFormulario {
+    margin-top: 5%; }
+    .preguntaFormulario .preguntaFormulario__contenedorPregunta {
+      margin-left: 0%; }
+      .preguntaFormulario .preguntaFormulario__contenedorPregunta .preguntaFormulario__contenedorPregunta__pregunta__h2 {
+        font-size: 6vh;
+        font-weight: bold;
+        background-color: #ffebd3;
+        text-align: center;
+        color: black;
+        border-radius: 10px; }
+    .preguntaFormulario .preguntaFormulario__contenedorFormulario {
+      margin-top: 5%; }
+      .preguntaFormulario .preguntaFormulario__contenedorFormulario ::placeholder {
+        color: gray;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif; }
+      .preguntaFormulario .preguntaFormulario__contenedorFormulario .preguntaFormulario__contenedorFormulario__formulario__label {
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: black; }
+      .preguntaFormulario .preguntaFormulario__contenedorFormulario .preguntaFormulario__contenedorFormulario__formulario__select {
+        color: gray;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        border: 3px solid salmon; }
+      .preguntaFormulario .preguntaFormulario__contenedorFormulario .preguntaFormulario__contenedorFormulario__formulario__control {
+        border: 3px solid salmon; }
+      .preguntaFormulario .preguntaFormulario__contenedorFormulario .preguntaFormulario__contenedorFormulario__formulario__enviar {
+        background-color: #ffebd3;
+        font-weight: bold;
+        color: black; }
+      .preguntaFormulario .preguntaFormulario__contenedorFormulario .preguntaFormulario__contenedorFormulario__formulario__enviar:hover {
+        background-color: #ffe2be;
+        font-weight: bold;
+        color: black; }
+  /*PRECIOS*/
+  .preciosTabla {
+    margin-top: 5%; }
+    .preciosTabla .preciosTabla__contenedorPrecios {
+      margin-left: 0%; }
+      .preciosTabla .preciosTabla__contenedorPrecios .preciosTabla__contenedorPrecios__precios__h2 {
+        font-size: 6vh;
+        font-weight: bold;
+        background-color: #ffebd3;
+        text-align: center;
+        color: black;
+        border-radius: 10px; }
+    .preciosTabla .preciosTabla__contenedorTabla {
+      margin-top: 5%; }
+      .preciosTabla .preciosTabla__contenedorTabla thead {
+        border: 3px solid salmon; }
+      .preciosTabla .preciosTabla__contenedorTabla tbody {
+        border: 3px solid salmon; }
+      .preciosTabla .preciosTabla__contenedorTabla tr {
+        border: 3px solid salmon; }
+        .preciosTabla .preciosTabla__contenedorTabla tr th {
+          text-align: center;
+          font-weight: bold;
+          font-family: 'Raleway', sans-serif;
+          font-size: 3.5vh;
+          color: black;
+          border: 3px solid salmon; }
+        .preciosTabla .preciosTabla__contenedorTabla tr td {
+          border: 3px solid salmon;
+          text-align: center;
+          font-weight: bold;
+          font-family: 'Raleway', sans-serif;
+          font-size: 3.5vh;
+          color: black; }
+  /*PIE DE PÁGINA*/
+  .contenedorFooter {
+    margin-top: 5%; }
+    .contenedorFooter .contenedorFooter__footer {
+      background-color: #ffebd3;
+      border-radius: 10px; }
+      .contenedorFooter .contenedorFooter__footer .contenedorFooter__footer__texto {
+        font-weight: bold;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 3vh;
+        color: black;
+        border-radius: 10px; } }
+
+/*MEDIA QUERIES MOBILE*/
+@media only screen and (max-width: 767px) {
+  /*FONDO*/
+  body {
+    background-color: #fffcf5; }
+  /*INFORMACIÓN VASOS*/
+  .infoVasosTexto {
+    margin-top: 5%; }
+    .infoVasosTexto .infoVasosTexto__contenedorInfoVasos__infoVasos__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      color: black;
+      border-radius: 10px; }
+    .infoVasosTexto .infoVasosTexto__contenedorTexto {
+      margin-top: 0%; }
+      .infoVasosTexto .infoVasosTexto__contenedorTexto .infoVasosTexto__contenedorTexto__texto {
+        background-color: #ffebd3;
+        color: salmon;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3.5vh;
+        margin-top: 5%;
+        border-radius: 10px; }
+      .infoVasosTexto .infoVasosTexto__contenedorTexto .infoVasosTexto__contenedorTexto__texto--2 {
+        background-color: #ffebd3;
+        color: salmon;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3.5vh;
+        margin-top: 5%;
+        border-radius: 10px; }
+  /*PRECAUCIÓN*/
+  .precaucion {
+    margin-top: 3%; }
+    .precaucion .precaucion__contenedorPrecaucion__h2 {
+      font-size: 3.5vh;
+      font-weight: bold;
+      background-color: salmon;
+      text-align: center;
+      color: #ffebd3;
+      border-radius: 10px; }
+  /*INFORMACIÓN STICKERS*/
+  .infoStickersTexto {
+    margin-top: 5%; }
+    .infoStickersTexto .infoStickersTexto__contenedorInfoStickers__infoStickers__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      color: black;
+      border-radius: 10px; }
+    .infoStickersTexto .infoStickersTexto__contenedorTexto {
+      margin-top: 5%; }
+      .infoStickersTexto .infoStickersTexto__contenedorTexto .infoStickersTexto__contenedorTexto__texto {
+        background-color: salmon;
+        color: #ffebd3;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3.5vh;
+        border-radius: 10px; }
+  /*INFORMACIÓN ENVÍOS*/
+  .enviosInformacion {
+    margin-top: 5%; }
+    .enviosInformacion .enviosInformacion__contenedorInformacion__informacion__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      color: black;
+      border-radius: 10px; }
+    .enviosInformacion .enviosInformacion__contenedorInformacion {
+      margin-top: 0%; }
+      .enviosInformacion .enviosInformacion__contenedorInformacion .enviosInformacion__contenedorInformacion__informacion {
+        background-color: #ffebd3;
+        color: salmon;
+        text-align: center;
+        font-weight: bold;
+        font-size: 4vh;
+        margin-top: 5%;
+        border-radius: 10px; }
+      .enviosInformacion .enviosInformacion__contenedorInformacion .enviosInformacion__contenedorInformacion__informacion--dos {
+        background-color: salmon;
+        color: #ffebd3;
+        text-align: center;
+        font-weight: bold;
+        font-size: 4vh;
+        margin-top: 5%;
+        border-radius: 10px; }
+  /*CATÁLOGO DE STICKERS*/
+  /*MAIN*/
+  main {
+    font-family: 'Raleway', sans-serif; }
+  /*ARTISTA Y STICKER*/
+  .artistaSticker {
+    margin-top: 5%; }
+    .artistaSticker .artistaSticker__contenedorArtista__artista__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      color: black;
+      border-radius: 10px; }
+    .artistaSticker .artistaSticker__contenedorStickers {
+      margin-top: 5%; }
+  /*PIE DE PÁGINA*/
+  .contenedorFooter2__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 5%; }
+  .contenedorRegresoIndex {
+    background-color: #ffebd3;
+    border-radius: 10px; }
+    .contenedorRegresoIndex .regresoIndex {
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      font-family: 'Raleway', sans-serif;
+      font-size: 3vh;
+      font-weight: bold; }
+    .contenedorRegresoIndex .regresoIndex:hover {
+      background-color: #ffe2be;
+      border-radius: 10px; }
+  /*INDEX*/
+  /*HEADER*/
+  .contenedorNav {
+    background-color: #ffebd3; }
+    .contenedorNav .contenedorNav__nav {
+      background-color: #ffebd3; }
+      .contenedorNav .contenedorNav__nav .contenedorNav__nav__títuloItems {
+        font-weight: bold;
+        color: black;
+        font-family: 'Raleway', sans-serif; }
+        .contenedorNav .contenedorNav__nav .contenedorNav__nav__títuloItems .contenedorNav__nav__títuloItems__título {
+          font-weight: bold;
+          margin-bottom: 0%;
+          font-size: 4vh;
+          margin-right: 3%;
+          color: black; }
+  /*MAIN*/
+  main {
+    font-family: 'Raleway', sans-serif; }
+  /*SOBRE NOSOTROS*/
+  .sobreNosotrosTexto {
+    margin-top: 5%; }
+    .sobreNosotrosTexto .sobreNosotrosTexto__contenedorSobreNosotros__sobreNosotros__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      color: black;
+      border-radius: 10px; }
+    .sobreNosotrosTexto .sobreNosotrosTexto__contenedorTexto {
+      margin-top: 5%; }
+      .sobreNosotrosTexto .sobreNosotrosTexto__contenedorTexto .sobreNosotrosTexto__contenedorTexto__texto {
+        background-color: salmon;
+        color: #ffebd3;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3.5vh;
+        border-radius: 10px; }
+  /*INSTRUCCIONES*/
+  .preguntaInstrucciones {
+    margin-top: 5%; }
+    .preguntaInstrucciones .preguntaInstrucciones__contenedorPregunta__pregunta__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      border-radius: 10px; }
+    .preguntaInstrucciones .preguntaInstrucciones__contenedorInstrucciones {
+      margin-top: 0%; }
+      .preguntaInstrucciones .preguntaInstrucciones__contenedorInstrucciones .preguntaInstrucciones__contenedorInstrucciones__instrucciones {
+        background-color: #ffebd3;
+        color: salmon;
+        text-align: center;
+        font-weight: bold;
+        font-size: 4vh;
+        margin-top: 5%;
+        border-radius: 10px; }
+      .preguntaInstrucciones .preguntaInstrucciones__contenedorInstrucciones .preguntaInstrucciones__contenedorInstrucciones__instrucción--dos {
+        background-color: salmon;
+        color: #ffebd3;
+        text-align: center;
+        font-weight: bold;
+        font-size: 4vh;
+        margin-top: 5%;
+        border-radius: 10px; }
+      .preguntaInstrucciones .preguntaInstrucciones__contenedorInstrucciones .preguntaInstrucciones__contenedorInstrucciones__instrucciones:hover {
+        transform: scale(1.1, 1.1);
+        transition-duration: 1s; }
+      .preguntaInstrucciones .preguntaInstrucciones__contenedorInstrucciones .preguntaInstrucciones__contenedorInstrucciones__instrucción--dos:hover {
+        transform: scale(1.1, 1.1);
+        transition-duration: 1s; }
+  /*MODAL*/
+  .contenedorModalBotón {
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-top: 2%; }
+    .contenedorModalBotón .contenedorModalBotón__contenedorBotónRecordá__botónRecordá {
+      background-color: #ffebd3;
+      font-weight: bold;
+      width: 20vh;
+      height: 7vh;
+      font-size: 3vh;
+      justify-self: center;
+      font-family: 'Raleway', sans-serif;
+      color: black; }
+    .contenedorModalBotón .contenedorModalBotón__contenedorBotónRecordá__botónRecordá:hover {
+      background-color: #ffe2be;
+      font-weight: bold;
+      color: black; }
+    .contenedorModalBotón .contenedorModalBotón__contenedorModal__dialog__contenido {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      color: black; }
+      .contenedorModalBotón .contenedorModalBotón__contenedorModal__dialog__contenido .contenedorModalBotón__contenedorModal__dialog__contenido__footer__botónModalAceptar {
+        background-color: #ffebd3;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: black; }
+      .contenedorModalBotón .contenedorModalBotón__contenedorModal__dialog__contenido .contenedorModalBotón__contenedorModal__dialog__contenido__footer__botónModalAceptar:hover {
+        background-color: #ffe2be;
+        font-weight: bold;
+        color: black; }
+      .contenedorModalBotón .contenedorModalBotón__contenedorModal__dialog__contenido .contenedorModalBotón__contenedorModal__dialog__contenido__header__título {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        color: black; }
+  /*FOTOS*/
+  .fotos {
+    margin-top: 5%; }
+  /*FORMULARIO*/
+  .preguntaFormulario {
+    margin-top: 5%; }
+    .preguntaFormulario .preguntaFormulario__contenedorPregunta {
+      margin-left: 0%; }
+      .preguntaFormulario .preguntaFormulario__contenedorPregunta .preguntaFormulario__contenedorPregunta__pregunta__h2 {
+        font-size: 6vh;
+        font-weight: bold;
+        background-color: #ffebd3;
+        text-align: center;
+        color: black;
+        border-radius: 10px; }
+    .preguntaFormulario .preguntaFormulario__contenedorFormulario {
+      margin-top: 5%; }
+      .preguntaFormulario .preguntaFormulario__contenedorFormulario ::placeholder {
+        color: gray;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif; }
+      .preguntaFormulario .preguntaFormulario__contenedorFormulario .preguntaFormulario__contenedorFormulario__formulario__label {
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: black; }
+      .preguntaFormulario .preguntaFormulario__contenedorFormulario .preguntaFormulario__contenedorFormulario__formulario__select {
+        color: gray;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        border: 3px solid salmon; }
+      .preguntaFormulario .preguntaFormulario__contenedorFormulario .preguntaFormulario__contenedorFormulario__formulario__control {
+        border: 3px solid salmon; }
+      .preguntaFormulario .preguntaFormulario__contenedorFormulario .preguntaFormulario__contenedorFormulario__formulario__enviar {
+        background-color: #ffebd3;
+        font-weight: bold;
+        color: black; }
+      .preguntaFormulario .preguntaFormulario__contenedorFormulario .preguntaFormulario__contenedorFormulario__formulario__enviar:hover {
+        background-color: #ffe2be;
+        font-weight: bold;
+        color: black; }
+  /*PRECIOS*/
+  .preciosTabla {
+    margin-top: 5%; }
+    .preciosTabla .preciosTabla__contenedorPrecios {
+      margin-left: 0%; }
+      .preciosTabla .preciosTabla__contenedorPrecios .preciosTabla__contenedorPrecios__precios__h2 {
+        font-size: 6vh;
+        font-weight: bold;
+        background-color: #ffebd3;
+        text-align: center;
+        color: black;
+        border-radius: 10px; }
+    .preciosTabla .preciosTabla__contenedorTabla {
+      margin-top: 5%; }
+      .preciosTabla .preciosTabla__contenedorTabla thead {
+        border: 3px solid salmon; }
+      .preciosTabla .preciosTabla__contenedorTabla tbody {
+        border: 3px solid salmon; }
+      .preciosTabla .preciosTabla__contenedorTabla tr {
+        border: 3px solid salmon; }
+        .preciosTabla .preciosTabla__contenedorTabla tr th {
+          text-align: center;
+          font-weight: bold;
+          font-family: 'Raleway', sans-serif;
+          font-size: 3.5vh;
+          color: black;
+          border: 3px solid salmon; }
+        .preciosTabla .preciosTabla__contenedorTabla tr td {
+          border: 3px solid salmon;
+          text-align: center;
+          font-weight: bold;
+          font-family: 'Raleway', sans-serif;
+          font-size: 3.5vh;
+          color: black; }
+  /*PIE DE PÁGINA*/
+  .contenedorFooter {
+    margin-top: 5%; }
+    .contenedorFooter .contenedorFooter__footer {
+      background-color: #ffebd3;
+      border-radius: 10px; }
+      .contenedorFooter .contenedorFooter__footer .contenedorFooter__footer__texto {
+        font-weight: bold;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 3vh;
+        color: black;
+        border-radius: 10px; } }
+
+/*MEDIA QUERIES XS*/
+@media only screen and (max-width: 576px) {
+  /*FONDO*/
+  body {
+    background-color: #fffcf5; }
+  /*INFORMACIÓN VASOS*/
+  .infoVasosTexto {
+    margin-top: 5%; }
+    .infoVasosTexto .infoVasosTexto__contenedorInfoVasos__infoVasos__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      color: black;
+      border-radius: 10px; }
+    .infoVasosTexto .infoVasosTexto__contenedorTexto {
+      margin-top: 0%; }
+      .infoVasosTexto .infoVasosTexto__contenedorTexto .infoVasosTexto__contenedorTexto__texto {
+        background-color: #ffebd3;
+        color: salmon;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3.5vh;
+        margin-top: 5%;
+        border-radius: 10px; }
+      .infoVasosTexto .infoVasosTexto__contenedorTexto .infoVasosTexto__contenedorTexto__texto--2 {
+        background-color: #ffebd3;
+        color: salmon;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3.5vh;
+        margin-top: 5%;
+        border-radius: 10px; }
+  /*PRECAUCIÓN*/
+  .precaucion {
+    margin-top: 3%; }
+    .precaucion .precaucion__contenedorPrecaucion__h2 {
+      font-size: 3.5vh;
+      font-weight: bold;
+      background-color: salmon;
+      text-align: center;
+      color: #ffebd3;
+      border-radius: 10px; }
+  /*INFORMACIÓN STICKERS*/
+  .infoStickersTexto {
+    margin-top: 5%; }
+    .infoStickersTexto .infoStickersTexto__contenedorInfoStickers__infoStickers__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      color: black;
+      border-radius: 10px; }
+    .infoStickersTexto .infoStickersTexto__contenedorTexto {
+      margin-top: 5%; }
+      .infoStickersTexto .infoStickersTexto__contenedorTexto .infoStickersTexto__contenedorTexto__texto {
+        background-color: salmon;
+        color: #ffebd3;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3.5vh;
+        border-radius: 10px; }
+  /*INFORMACIÓN ENVÍOS*/
+  .enviosInformacion {
+    margin-top: 5%; }
+    .enviosInformacion .enviosInformacion__contenedorInformacion__informacion__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      color: black;
+      border-radius: 10px; }
+    .enviosInformacion .enviosInformacion__contenedorInformacion {
+      margin-top: 0%; }
+      .enviosInformacion .enviosInformacion__contenedorInformacion .enviosInformacion__contenedorInformacion__informacion {
+        background-color: #ffebd3;
+        color: salmon;
+        text-align: center;
+        font-weight: bold;
+        font-size: 4vh;
+        margin-top: 5%;
+        border-radius: 10px; }
+      .enviosInformacion .enviosInformacion__contenedorInformacion .enviosInformacion__contenedorInformacion__informacion--dos {
+        background-color: salmon;
+        color: #ffebd3;
+        text-align: center;
+        font-weight: bold;
+        font-size: 4vh;
+        margin-top: 5%;
+        border-radius: 10px; }
+  /*CATÁLOGO DE STICKERS*/
+  /*MAIN*/
+  main {
+    font-family: 'Raleway', sans-serif; }
+  /*ARTISTA Y STICKER*/
+  .artistaSticker {
+    margin-top: 5%; }
+    .artistaSticker .artistaSticker__contenedorArtista__artista__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      color: black;
+      border-radius: 10px; }
+    .artistaSticker .artistaSticker__contenedorStickers {
+      margin-top: 5%; }
+  /*PIE DE PÁGINA*/
+  .contenedorFooter2__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 5%; }
+  .contenedorRegresoIndex {
+    background-color: #ffebd3;
+    border-radius: 10px; }
+    .contenedorRegresoIndex .regresoIndex {
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      font-family: 'Raleway', sans-serif;
+      font-size: 3vh;
+      font-weight: bold; }
+    .contenedorRegresoIndex .regresoIndex:hover {
+      background-color: #ffe2be;
+      border-radius: 10px; }
+  /*INDEX*/
+  /*HEADER*/
+  .contenedorNav {
+    background-color: #ffebd3; }
+    .contenedorNav .contenedorNav__nav {
+      background-color: #ffebd3; }
+      .contenedorNav .contenedorNav__nav .contenedorNav__nav__títuloItems {
+        font-weight: bold;
+        color: black;
+        font-family: 'Raleway', sans-serif; }
+        .contenedorNav .contenedorNav__nav .contenedorNav__nav__títuloItems .contenedorNav__nav__títuloItems__título {
+          font-weight: bold;
+          margin-bottom: 0%;
+          font-size: 4vh;
+          margin-right: 3%;
+          color: black; }
+  /*MAIN*/
+  main {
+    font-family: 'Raleway', sans-serif; }
+  /*SOBRE NOSOTROS*/
+  .sobreNosotrosTexto {
+    margin-top: 5%; }
+    .sobreNosotrosTexto .sobreNosotrosTexto__contenedorSobreNosotros__sobreNosotros__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      color: black;
+      border-radius: 10px; }
+    .sobreNosotrosTexto .sobreNosotrosTexto__contenedorTexto {
+      margin-top: 5%; }
+      .sobreNosotrosTexto .sobreNosotrosTexto__contenedorTexto .sobreNosotrosTexto__contenedorTexto__texto {
+        background-color: salmon;
+        color: #ffebd3;
+        text-align: center;
+        font-weight: bold;
+        font-size: 3.5vh;
+        border-radius: 10px; }
+  /*INSTRUCCIONES*/
+  .preguntaInstrucciones {
+    margin-top: 10%; }
+    .preguntaInstrucciones .preguntaInstrucciones__contenedorPregunta__pregunta__h2 {
+      font-size: 6vh;
+      font-weight: bold;
+      background-color: #ffebd3;
+      text-align: center;
+      color: black;
+      border-radius: 10px; }
+    .preguntaInstrucciones .preguntaInstrucciones__contenedorInstrucciones {
+      margin-top: 0%; }
+      .preguntaInstrucciones .preguntaInstrucciones__contenedorInstrucciones .preguntaInstrucciones__contenedorInstrucciones__instrucciones {
+        background-color: #ffebd3;
+        color: salmon;
+        text-align: center;
+        font-weight: bold;
+        font-size: 4vh;
+        margin-top: 10%;
+        border-radius: 10px; }
+      .preguntaInstrucciones .preguntaInstrucciones__contenedorInstrucciones .preguntaInstrucciones__contenedorInstrucciones__instrucción--dos {
+        background-color: salmon;
+        color: #ffebd3;
+        text-align: center;
+        font-weight: bold;
+        font-size: 4vh;
+        margin-top: 10%;
+        border-radius: 10px; }
+      .preguntaInstrucciones .preguntaInstrucciones__contenedorInstrucciones .preguntaInstrucciones__contenedorInstrucciones__instrucciones:hover {
+        transform: scale(1.1, 1.1);
+        transition-duration: 1s; }
+      .preguntaInstrucciones .preguntaInstrucciones__contenedorInstrucciones .preguntaInstrucciones__contenedorInstrucciones__instrucción--dos:hover {
+        transform: scale(1.1, 1.1);
+        transition-duration: 1s; }
+  /*MODAL*/
+  .contenedorModalBotón {
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-top: 2%; }
+    .contenedorModalBotón .contenedorModalBotón__contenedorBotónRecordá__botónRecordá {
+      background-color: #ffebd3;
+      font-weight: bold;
+      width: 20vh;
+      height: 7vh;
+      font-size: 3vh;
+      justify-self: center;
+      font-family: 'Raleway', sans-serif;
+      color: black; }
+    .contenedorModalBotón .contenedorModalBotón__contenedorBotónRecordá__botónRecordá:hover {
+      background-color: #ffe2be;
+      font-weight: bold;
+      color: black; }
+    .contenedorModalBotón .contenedorModalBotón__contenedorModal__dialog__contenido {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      color: black; }
+      .contenedorModalBotón .contenedorModalBotón__contenedorModal__dialog__contenido .contenedorModalBotón__contenedorModal__dialog__contenido__footer__botónModalAceptar {
+        background-color: #ffebd3;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: black; }
+      .contenedorModalBotón .contenedorModalBotón__contenedorModal__dialog__contenido .contenedorModalBotón__contenedorModal__dialog__contenido__footer__botónModalAceptar:hover {
+        background-color: #ffe2be;
+        font-weight: bold;
+        color: black; }
+      .contenedorModalBotón .contenedorModalBotón__contenedorModal__dialog__contenido .contenedorModalBotón__contenedorModal__dialog__contenido__header__título {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        color: black; }
+  /*FOTOS*/
+  .fotos {
+    margin-top: 10%; }
+  /*FORMULARIO*/
+  .preguntaFormulario {
+    margin-top: 10%; }
+    .preguntaFormulario .preguntaFormulario__contenedorPregunta {
+      margin-left: 0%; }
+      .preguntaFormulario .preguntaFormulario__contenedorPregunta .preguntaFormulario__contenedorPregunta__pregunta__h2 {
+        font-size: 6vh;
+        font-weight: bold;
+        background-color: #ffebd3;
+        text-align: center;
+        color: black;
+        border-radius: 10px; }
+    .preguntaFormulario .contenedorFormulario {
+      margin-top: 5%; }
+      .preguntaFormulario .contenedorFormulario ::placeholder {
+        color: gray;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif; }
+      .preguntaFormulario .contenedorFormulario .preguntaFormulario__contenedorFormulario__formulario__label {
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: black; }
+      .preguntaFormulario .contenedorFormulario .preguntaFormulario__contenedorFormulario__formulario__select {
+        color: gray;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        border: 3px solid salmon; }
+      .preguntaFormulario .contenedorFormulario .preguntaFormulario__contenedorFormulario__formulario__control {
+        border: 3px solid salmon; }
+      .preguntaFormulario .contenedorFormulario .preguntaFormulario__contenedorFormulario__formulario__enviar {
+        background-color: #ffebd3;
+        font-weight: bold;
+        color: black; }
+      .preguntaFormulario .contenedorFormulario .preguntaFormulario__contenedorFormulario__formulario__enviar:hover {
+        background-color: #ffe2be;
+        font-weight: bold;
+        color: black; }
+  /*PRECIOS*/
+  .preciosTabla {
+    margin-top: 10%; }
+    .preciosTabla .preciosTabla__contenedorPrecios {
+      margin-left: 0%; }
+      .preciosTabla .preciosTabla__contenedorPrecios .preciosTabla__contenedorPrecios__precios__h2 {
+        font-size: 6vh;
+        font-weight: bold;
+        background-color: #ffebd3;
+        text-align: center;
+        color: black;
+        border-radius: 10px; }
+    .preciosTabla .preciosTabla__contenedorTabla {
+      margin-top: 10%; }
+      .preciosTabla .preciosTabla__contenedorTabla thead {
+        border: 3px solid salmon; }
+      .preciosTabla .preciosTabla__contenedorTabla tbody {
+        border: 3px solid salmon; }
+      .preciosTabla .preciosTabla__contenedorTabla tr {
+        border: 3px solid salmon; }
+        .preciosTabla .preciosTabla__contenedorTabla tr th {
+          text-align: center;
+          font-weight: bold;
+          font-family: 'Raleway', sans-serif;
+          font-size: 3.5vh;
+          color: black;
+          border: 3px solid salmon; }
+        .preciosTabla .preciosTabla__contenedorTabla tr td {
+          border: 3px solid salmon;
+          text-align: center;
+          font-weight: bold;
+          font-family: 'Raleway', sans-serif;
+          font-size: 3.5vh;
+          color: black; }
+  /*PIE DE PÁGINA*/
+  .contenedorFooter {
+    margin-top: 10%; }
+    .contenedorFooter .contenedorFooter__footer {
+      background-color: #ffebd3;
+      border-radius: 10px; }
+      .contenedorFooter .contenedorFooter__footer .contenedorFooter__footer__texto {
+        font-weight: bold;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 3vh;
+        color: black;
+        border-radius: 10px; } }
